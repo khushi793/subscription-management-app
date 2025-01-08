@@ -11,7 +11,7 @@ class amazon1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Services'),
+        title: Text('Services',textDirection: TextDirection.ltr,),
         backgroundColor: Colors.grey[900],
       ),
       body: Container(
